@@ -26,6 +26,7 @@ class Solution {
         if (carry > 0) {
             current.next = new ListNode(carry);
         }
+        
         return result.next;
     }
 }
