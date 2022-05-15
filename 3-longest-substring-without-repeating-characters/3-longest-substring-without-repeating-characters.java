@@ -15,6 +15,5 @@ class Solution {
             s = s.substring(1);
         }
         return result;
-        
     }
 }
