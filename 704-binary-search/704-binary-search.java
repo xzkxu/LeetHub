@@ -3,7 +3,7 @@ class Solution {
         int left = 0;
         int right = nums.length;
         while (right > left) {
-            int pivot = left + ((right - left) >> 1);
+            int pivot = left + ((right - left)/2);
             if(nums[pivot] == target) { 
                 return pivot;
             }
